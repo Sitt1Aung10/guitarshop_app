@@ -6,6 +6,15 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Guitar Shop to access photos so order vouchers can be saved.",
+          "savePhotosPermission": "Allow Guitar Shop to save order vouchers to your gallery."
+        }
+      ]
+    ],
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
