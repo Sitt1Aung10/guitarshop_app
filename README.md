@@ -24,5 +24,45 @@ A React Native + Expo mobile application for browsing guitars, adding products t
 
 Clone the repository:
 
-```bash
+bash
 git clone https://github.com/yourusername/guitarshop-expo-app.git
+
+Install dependencies:
+
+npm install
+
+Start Expo server:
+
+npx expo start
+Required Packages
+npm install @react-native-async-storage/async-storage
+
+If using media saving:
+
+npx expo install expo-media-library expo-file-system
+Project Structure
+components/
+screens/
+assets/
+App.js
+MainScreen.js
+Home.js
+Cart.js
+BuyNow.js
+
+Development Notes
+
+Expo Go has limited Android media permissions on newer Android versions.
+
+For full media-library functionality, use an Expo Development Build.
+
+Future Improvements
+User authentication
+Payment integration
+Order history
+Search and filtering
+Admin dashboard
+Cloud image storage
+License
+
+This project is for educational purposes.
